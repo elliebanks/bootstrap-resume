@@ -8,20 +8,24 @@
     <title>Bootstrap Resume</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <!-- Title Jumbotron -->
     <div class="container p-4">
         <div class="jumbotron bg-primary text-white">
             <h1 class="display-4">Ellie Banks</h1>
             <p class="lead">Full-Stack Developer</p>
-            <hr class="my-4">
         </div>
+
+        <!-- Alert Thingy -->
         <div class="alert alert-success" role="alert">
             I made this resume with Bootstrap 4! Yeehaw
         </div>
 
-        <div class="container-fluid">
+        <!-- Skills Section-->
+        <div class="container-fluid mb-4 mt-4">
             <div class="row">
                 <div class="col-md">
                     <h1>My Skills</h1>
@@ -47,133 +51,162 @@
             </div>
         </div>
 
+        <!-- My Experience Section-->
+        <div class="row mb-4 mt-4">
+            <div class="col">
+                <h1 class="mb-1">My Experience</h1>
+            </div>
+        </div>
 
-        <div class="container-fluid p-1">
-            <h1>My Experience</h1>
-            <div class="row p-2">
-                <div class="col-md">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="350x150">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of
-                                    the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="350x150">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of
-                                    the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="350x150">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of
-                                    the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
+        <!-- FIRST ROW OF CARDS-->
+        <div class="container">
+            <div class="row justify-content-around  mt-3">
+                <!-- card 1 -->
+                <div class="card col-md m-3">
+                    <div class="card-header d-flex justify-content-center align-items-center"
+                        style="background-color: #cccccc; height: 150px;">
+                        <h4 class="text-secondary">350 X 150</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title #1</h5>
+                        <p class="cart-text">Here is some text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go Somewhere</a>
                     </div>
                 </div>
-            </div>
-
-            <div class="container p-1">
-                <div class="row p-2">
-                    <div class="col-md">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="card">
-                                <img class="card-img-top" src="..." alt="350x150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk
-                                        of
-                                        the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img class="card-img-top" src="..." alt="350x150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk
-                                        of
-                                        the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img class="card-img-top" src="..." alt="350x150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk
-                                        of
-                                        the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
+                <!-- card 2 -->
+                <div class="card col-md m-3">
+                    <div class="card-header d-flex justify-content-center align-items-center"
+                        style="background-color: #cccccc; height: 150px;">
+                        <h4 class="text-secondary">350 X 150</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title #2</h5>
+                        <p class="cart-text">Here is some text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go Somewhere</a>
                     </div>
                 </div>
-            </div>
-
-            <div class="container p-1">
-                <div class="row p-2">
-                    <div class="col-md d-flex justify-content-between align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="350x150">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of
-                                    the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="350x150">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of
-                                    the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
+                <!-- card 3 -->
+                <div class="card col-md m-3">
+                    <div class="card-header d-flex justify-content-center align-items-center"
+                        style="background-color: #cccccc; height: 150px;">
+                        <h4 class="text-secondary">350 X 150</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title #3</h5>
+                        <p class="cart-text">Here is some text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go Somewhere</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+
+        <!-- SECOND ROW OF CARDS -->
+        <div class="container">
+            <div class="row justify-content-around mt-3">
+                <!-- card 4 -->
+                <div class="card col-md m-3">
+                    <div class="card-header d-flex justify-content-center align-items-center"
+                        style="background-color: #cccccc; height: 150px;">
+                        <h4 class="text-secondary">350 X 150</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title #4</h5>
+                        <p class="cart-text">Here is some text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go Somewhere</a>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="card col-md m-3">
+                    <div class="card-header d-flex justify-content-center align-items-center"
+                        style="background-color: #cccccc; height: 150px;">
+                        <h4 class="text-secondary">350 X 150</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title #5</h5>
+                        <p class="cart-text">Here is some text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go Somewhere</a>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="card col-md m-3">
+                    <div class="card-header d-flex justify-content-center align-items-center"
+                        style="background-color: #cccccc; height: 150px;">
+                        <h4 class="text-secondary">350 X 150</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title #6</h5>
+                        <p class="cart-text">Here is some text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go Somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- THIRD ROW OF CARDS -->
+        <div class="container">
+            <div class="card-columns row justify-content-left mt-3">
+                <!-- card 7 -->
+                <div class="card col-sm-3 m-3">
+                    <div class="card-header d-flex justify-content-center align-items-center"
+                        style="background-color: #cccccc; height: 150px;">
+                        <h4 class="text-secondary">350 X 150</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title #7</h5>
+                        <p class="cart-text">Here is some text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Go Somewhere</a>
+                    </div>
+                </div>
+                <!-- card 8 -->
+                <div class="card col-sm-3 m-3">
+                    <div class="card-header d-flex justify-content-center align-items-center"
+                        style="background-color: #cccccc; height: 150px;">
+                        <h4 class="text-secondary">350 X 150</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title #8</h5>
+                        <p class="cart-text">Here is some text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Go Somewhere</a>
+                    </div>
+                </div>
+           
+            </div>
+        </div>
+
+    <!-- Contact Info MumboJumbo -->
+    <div class="jumbotron mt-3 bg-light align-items-center text-center">
+        <h3>Ellie Banks</h3>
+        <p>3666 Im Denny Kimber Blvd.<br>Birmingham, AL 35205</p>
+        <p>205-999-6666</p>
+        <p>imdennykimber@aol.com</p>
+      </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
